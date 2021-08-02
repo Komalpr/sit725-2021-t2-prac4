@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.wrapper {
+    background-image: url(../img/photo.jpg);
+    height:100vh;
+    background-size:cover;
+    background-position: center;
+
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    
+}
+.navbar ul{
+    float: right;
+    margin-right: 70px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: .4s;
+}
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+
+}
+.center h1{
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    width: 900px;
+    text-align: center;
+}
+.center .buttons{
+    margin-top: 35px;
+   margin: 35px, 280px;
+   text-align: center;
+}
+.buttons button{
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e0d5d5;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.buttons button:hover{
+    background: #cc0000;
+}
